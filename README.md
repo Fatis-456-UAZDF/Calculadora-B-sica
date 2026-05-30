@@ -6,11 +6,11 @@ EL programa permite realizar operaciones matemáticas básicas como lo son: la s
 Asi como almacenar su historial de operaciones realizadas en un archivo JSON, mostrando las estadisticas de las operaciones previamente ejecutadas.
 
 ## ¿Qué implementé?
-*Interfaz gráfica
-*Almacenamiento de datos en JSON
-*Manejo de excepciones
-*Sistema de historial de operaciones realizadas
-*Estadisticas de las operaciones
+-Interfaz gráfica
+-Almacenamiento de datos en JSON
+-Manejo de excepciones
+-Sistema de historial de operaciones realizadas
+-Estadisticas de las operaciones
 
 ## ¿Qué partes del código implementé yo?
 Diseñé la estructura general de la calculadora, la interfaz gráfica,las estadisticas, el manejo de archivos JSON, la organización de funciones y las pruebas de funcionamiento.
