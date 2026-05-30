@@ -12,7 +12,7 @@ Asi como almacenar su historial de operaciones realizadas en un archivo JSON, mo
 *Sistema de historial de operaciones realizadas
 *Estadisticas de las operaciones
 
-## Qué partes del código implementé yo
+## ¿Qué partes del código implementé yo?
 Diseñé la estructura general de la calculadora, la interfaz gráfica,las estadisticas, el manejo de archivos JSON, la organización de funciones y las pruebas de funcionamiento.
 También realicé ajustes de diseño, corrección de errores y personalización de la interfaz para cumplir con los requisitos del proyecto, agregando comentarios, color y orden a la calculadora para un buen funcionamieto
 
