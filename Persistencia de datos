@@ -1,0 +1,20 @@
+def cargar_datos():
+    try:
+        with open(ARCHIVO_HISTORIAL, "r", encoding="utf-8") as archivo:
+            return json.load(archivo)
+    except:
+        return []
+
+def guardar_datos(operacion, resultado):
+    historial = cargar_datos()
+
+    datos = {
+        "fecha": datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
+        "operacion": operacion,
+        "resultado": resultado
+    }
+
+    historial.append(datos)
+
+    with open(ARCHIVO_HISTORIAL, "w", encoding="utf-8") as archivo:
+        json.dump(historial, archivo, indent=4)
