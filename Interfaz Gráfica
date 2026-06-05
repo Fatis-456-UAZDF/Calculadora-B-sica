@@ -1,0 +1,8 @@
+#Ventana Principal
+Cuenta con una ventana principal, configurada con:
+ventana = tk.Tk()
+def configurar_calculadora():
+ventana.title("Calculadora Básica")       *Titulo "Calculadora Básica"
+ventana.geometry("500x650")                *Tamaño de la calculadora en pixeles
+ventana.config(bg="#f4f8fb")               *Fondo del color de la calculadora
+ventana.resizable(False, False)            *Tamaño fijo para evitar cambios en la distribución de los componentes.
