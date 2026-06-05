@@ -3,14 +3,13 @@ Proyecto Final de Programación
 ## Descripción
 Este proyecto que esta desarrollado en Python consiste en una calculadora básica utilizando Tkinter para su interfaz gráfica.
 EL programa permite realizar operaciones matemáticas básicas como lo son: la suma, resta, multiplicación y división.
-Asi como almacenar su historial de operaciones realizadas en un archivo JSON, mostrando las estadisticas de las operaciones previamente ejecutadas.
-
+Asi como almacenar su historial de operaciones realizadas en un archivo JSON. 
 ## ¿Qué implementé?
 -Interfaz gráfica
 -Almacenamiento de datos en JSON
 -Manejo de excepciones
 -Sistema de historial de operaciones realizadas
--Estadisticas de las operaciones
+-Parentesis
 
 ## ¿Qué partes del código implementé yo?
 Diseñé la estructura general de la calculadora, la interfaz gráfica,las estadisticas, el manejo de archivos JSON, la organización de funciones y las pruebas de funcionamiento.
