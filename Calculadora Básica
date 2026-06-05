@@ -32,7 +32,7 @@ def guardar_datos(operacion, resultado):
     with open(ARCHIVO_HISTORIAL, "w", encoding="utf-8") as archivo:
         json.dump(historial, archivo, indent=4)
 
-# CONFIGURACIÓN
+# INTERFAZ GRÁFICA
 
 def configurar_calculadora():
     ventana.title("Calculadora Básica")
